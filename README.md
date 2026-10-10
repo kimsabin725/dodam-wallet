@@ -228,7 +228,7 @@ npm test
 
 | 파일 | 개수 | 무엇을 지키나 |
 |---|---|---|
-| `tests/judge.test.js` | 8 | 판정 5종 + 경계값(한도와 정확히 같을 때) |
+| `tests/judge.test.js` | 8 | 거절 사유 5종 + 경계값(한도와 정확히 같을 때) |
 | `tests/condition.test.js` | 9 | 조건 검증 — 목록 밖 업종, 모순 조건, 한도 역전 |
 | `tests/render.test.js` | 9 | 세 화면·모달·시트가 실제로 그려지는가 (빈 원장·0건 엣지 포함) |
 | `tests/demo.test.js` | 7 | **시연 대본 그 자체** |
